@@ -1,0 +1,401 @@
+:root {
+  --lightgreenlight: #6fda44;
+  --lightgreen: #34ba08;
+  --normalgreen: #37a000;
+  --darkgreen: #008329;
+  --darkblue: #1d4354;
+  --normalblue: #2b5468;
+  --lightblue: #336278;
+  --white: #fff;
+}
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+#href {
+  color: #000;
+  margin-left: 1rem;
+}
+#href:hover {
+  color: var(--lightgreen);
+  text-decoration: none;
+}
+#href2 {
+  color: #000;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+#href2:hover {
+  color: var(--lightgreen);
+}
+h1 {
+  color: var(--darkblue);
+  font-family: serif;
+}
+#h1 h1 {
+  color: #000 !important;
+  font-size: 74px !important;
+}
+#h1 h1:hover {
+  cursor: pointer !important;
+  color: var(--lightgreenlight) !important;
+}
+#h1 h1:first-child {
+  color: var(--lightgreenlight) !important;
+}
+#h1 h1:last-child {
+  color: var(--normalgreen) !important;
+}
+#h1 h1:last-child:hover {
+  color: var(--lightgreenlight) !important;
+}
+#h1 h1:active {
+  transform: scale(0.98) !important;
+}
+#header-button button:first-child:hover {
+  background-color: var(--darkgreen) !important;
+}
+#header-button button:last-child:hover {
+  background-color: #f6f6f6 !important;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.icons i {
+  font-size: 22px;
+  color: var(--darkblue);
+  display: flex;
+  align-items: center;
+}
+.icons i span {
+  font-size: 14px;
+  font-family: sans-serif;
+  color: var(--darkblue);
+  margin-left: 5px;
+}
+#test i {
+  animation: test 2s linear infinite;
+}
+#body .col-lg:hover i {
+  animation: example 0.7s linear 1 !important;
+  color: var(--lightgreenlight) !important;
+}
+#body .col-lg:hover {
+  background-color: var(--lightgreenlight) !important;
+  cursor: pointer !important;
+  color: #fff !important;
+}
+#body .col-lg:hover h1 {
+  color: #fff !important;
+}
+#body .col-lg:hover .square {
+  background: #fff !important;
+}
+#body .col-lg-4:hover i {
+  animation: example 0.7s linear 1 !important;
+  color: var(--lightgreenlight) !important;
+}
+#body .col-lg-4:hover {
+  background-color: var(--lightgreenlight) !important;
+  cursor: pointer !important;
+  color: #fff !important;
+}
+#body .col-lg-4:hover h1 {
+  color: #fff !important;
+}
+#body .col-lg-4:hover .square {
+  background: #fff !important;
+}
+#boxtext:hover {
+  color: var(--darkgreen) !important;
+}
+#none h4 {
+  border: 1px solid var(--darkblue) !important;
+  border-radius: 35px !important;
+  width: max-content !important;
+  padding: 0.3rem 1.5rem !important;
+  color: var(--darkblue);
+  cursor: pointer !important;
+}
+#none h4:hover {
+  background-color: var(--darkblue) !important;
+  color: #fff !important;
+}
+#hover h5 {
+  border: 1px solid var(--darkblue) !important;
+  border-radius: 35px !important;
+  padding: 0.3rem 1.5rem !important;
+  color: var(--darkblue);
+  cursor: pointer !important;
+}
+#hover h5:hover {
+  background-color: var(--darkblue) !important;
+  color: #fff !important;
+}
+.a:hover{
+  color: var(--darkgreen) !important;
+  text-decoration: none !important;
+}
+@keyframes example {
+  0% {
+    transform: translateX(-30px);
+    font-size: 10px;
+  }
+  50% {
+    transform: translateX(0px);
+    font-size: 3rem;
+  }
+  100% {
+    transform: none;
+  }
+}
+@keyframes test {
+  0%,
+  100% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translateY(40px);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  #header-top .col-md-12 {
+    margin-top: 5rem !important;
+  }
+  #hover{
+    display: block !important;
+    width: 90% !important;
+    margin: auto !important;
+  }
+  .reverse {
+    display: flex;
+    flex-direction: column;
+  }
+  .paragraph {
+    margin-top: 10rem;
+    z-index: 50;
+  }
+  #d-flex {
+    flex-direction: column-reverse !important;
+  }
+  #d-flex img:last-child {
+    margin: auto !important;
+    text-align: center !important;
+    margin-top: 5rem !important;
+    margin-left: 6rem !important;
+  }
+  #icons {
+    flex-direction: column;
+    text-align: center;
+  }
+  .iconss {
+    margin: auto !important;
+  }
+  #header-top h1 {
+    text-align: center !important;
+    margin: auto !important;
+    font-size: 60px !important;
+  }
+  #header-top p {
+    text-align: center !important;
+    margin: auto !important;
+  }
+  #test {
+    margin-top: 11rem !important;
+  }
+  #susan {
+    position: relative !important;
+  }
+  #body .col-sm-12 {
+    margin: 2rem auto !important;
+  }
+  #none {
+    display: none !important;
+  }
+  #h1 h1 {
+    font-size: 30px !important;
+    text-align: center !important;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #header-top .col-sm-12 {
+    margin-top: 5rem !important;
+  }
+  #hover{
+    display: block !important;
+    width: 90% !important;
+    margin: auto !important;
+  }
+  #position{
+    padding-left: 0 !important;
+  }
+  #position img{
+    margin-left: 10rem !important;
+    box-sizing: content-box;
+  }
+  #paragraph p{
+    margin-top: 25rem !important;
+    padding-left: 5rem !important;
+    width: 550px !important;
+  }
+  #paragraph h5{
+    padding-left: 5rem !important;
+    width: 500px !important;
+  }
+  #margin-top {
+    margin-top: 17rem !important;
+  }
+  .reverse {
+    display: flex;
+    flex-direction: column;
+  }
+  .paragraph {
+    margin-top: 10rem;
+    z-index: 50;
+  }
+  #d-flex {
+    flex-direction: column-reverse !important;
+  }
+  #d-flex img:last-child {
+    margin: auto !important;
+    text-align: center !important;
+    margin-top: 25rem !important;
+    margin-left: 1rem !important;
+  }
+  #position {
+    width: 470px !important;
+    margin: auto !important;
+    position: absolute !important;
+    left: 0 !important;
+  }
+  #icons {
+    flex-direction: column;
+    text-align: center;
+  }
+  .iconss {
+    margin: auto !important;
+  }
+  #header-top h1 {
+    text-align: center !important;
+  }
+  #test {
+    margin-top: 11rem !important;
+  }
+  #susan {
+    position: relative !important;
+  }
+  #body .col-sm-12 {
+    margin: 2rem auto !important;
+  }
+  #none {
+    display: none !important;
+  }
+  #h1 h1 {
+    font-size: 30px !important;
+    text-align: center !important;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 575px) {
+  #header-top .col-sm-12 {
+    margin-top: 0rem !important;
+    text-align: center;
+  }
+  #hover{
+    display: block !important;
+    width: 90% !important;
+    margin: auto !important;
+  }
+  #margin-top {
+    margin-top: 20rem !important;
+  }
+  .reverse {
+    display: flex;
+    flex-direction: column;
+  }
+  #paragraph h5 {
+    padding-left: 0 !important;
+  }
+  #paragraph {
+    z-index: 40 !important;
+    padding: 0 !important;
+    padding-left: 3rem !important;
+  }
+  #paragraph p {
+    margin-top: 23rem !important;
+    z-index: 50 !important;
+    padding-left: 0 !important;
+  }
+  #position img {
+    margin-left: 2.5rem !important;
+  }
+  #d-flex {
+    flex-direction: column-reverse !important;
+  }
+  #d-flex img {
+    margin-top: 30rem !important;
+  }
+  #d-flex img:last-child {
+    margin: auto !important;
+    text-align: center !important;
+    margin-top: 30rem !important;
+    margin-left: 0rem !important;
+  }
+  #position {
+    width: 300px !important;
+    margin: auto !important;
+    position: absolute !important;
+    left: 0 !important;
+  }
+  #icons {
+    flex-direction: column;
+    text-align: center;
+  }
+  .iconss {
+    margin: auto !important;
+  }
+  #header-top h1 {
+    text-align: center !important;
+    font-size: 40px !important;
+  }
+  #header-top .col-sm-12 p {
+    margin: auto;
+  }
+  #header-top .col-sm-12 .icons {
+    margin: auto;
+  }
+  #test {
+    margin-top: 9rem !important;
+  }
+  #susan {
+    position: relative !important;
+  }
+  #head-navbar {
+    position: relative !important;
+  }
+  .navbar-2 {
+    display: none;
+  }
+  #body .col-sm-12 {
+    margin: 2rem 1rem !important;
+  }
+  #none {
+    display: none !important;
+  }
+  #h1 {
+    margin-top: -1rem !important;
+  }
+  #h1 h1 {
+    font-size: 30px !important;
+    text-align: center !important;
+  }
+}
